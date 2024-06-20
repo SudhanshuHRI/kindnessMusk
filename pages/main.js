@@ -124,6 +124,7 @@ function MainPage({ metaData }) {
       // params.pageName = "home";
 
       const resp = await homePageService?.pageStaticData(params);
+      
       console.log("Static Data===>", resp);
 
       if (resp?.data?.success) {
